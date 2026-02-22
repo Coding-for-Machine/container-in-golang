@@ -19,5 +19,6 @@ Minimal container engine built in Go from scratch, using Linux namespaces, cgrou
 
 ```bash
 go build -o minicontainer .
-sudo ./minicontainer run /bin/sh
+sudo ./minicontainer init
+sudo ./minicontainer run /bin/bash
 ```
